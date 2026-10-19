@@ -1,0 +1,134 @@
+[
+  {
+    "id": "sg-j151-jrl",
+    "name": "SG J151 JRL 1435JR",
+    "description": "Hyundai Rotem J151 driverless medium-capacity train for the Jurong Region Line, running as 3 cars and extendable to 4. Line opening planned for 2028. Manufacturer: Hyundai Rotem.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 19.44,
+      "capacityPerCar": 254,
+      "seatsPerCar": 28,
+      "doorsPerCarPerSide": 3,
+      "carLength": 18.6,
+      "minCars": 3,
+      "maxCars": 4,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.75,
+      "minStationLength": 56,
+      "maxStationLength": 85,
+      "baseTrackCost": 32000,
+      "baseStationCost": 56000000,
+      "trainOperationalCostPerHour": 250,
+      "carOperationalCostPerHour": 25,
+      "scissorsCrossoverCost": 15000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.425,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 3.8,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 30,
+      "turnaroundTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 36,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#0099AA"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8,
+      "TRENCHED": 0.54,
+      "RAMP": 0.53
+    },
+    "Manufacturer": [
+      "Hyundai Rotem"
+    ],
+    "compatibleTrackTypes": [
+      "1435JR-70"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 9000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 8000000,
+    "rampCost": 4000000
+  },
+  {
+    "id": "1435JR-70",
+    "name": "1435JR-70",
+    "description": "1435mm 70kph track for Jurong Region Line use.",
+    "stats": {
+      "maxAcceleration": 9,
+      "maxDeceleration": 9,
+      "maxSpeed": 19.5,
+      "maxSpeedLocalStation": 19.5,
+      "capacityPerCar": 0,
+      "seatsPerCar": 0,
+      "doorsPerCarPerSide": 999,
+      "carLength": 18.6,
+      "minCars": 2,
+      "maxCars": 20,
+      "carsPerCarSet": 1,
+      "carCost": 3200000,
+      "trainWidth": 2.75,
+      "minStationLength": 48,
+      "maxStationLength": 382,
+      "baseTrackCost": 32000,
+      "baseStationCost": 56000000,
+      "trainOperationalCostPerHour": 380,
+      "carOperationalCostPerHour": 26,
+      "scissorsCrossoverCost": 15000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.425,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 3.8,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 30,
+      "turnaroundTimeSeconds": 90,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 60,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#0099AA"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8,
+      "TRENCHED": 0.54,
+      "RAMP": 0.53
+    },
+    "Manufacturer": [],
+    "compatibleTrackTypes": [],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 9000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 8000000,
+    "rampCost": 4000000
+  }
+]
