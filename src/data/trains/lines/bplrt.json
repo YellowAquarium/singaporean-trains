@@ -1,0 +1,272 @@
+[
+  {
+    "id": "sg-c801-bplrt",
+    "name": "SG C801 BPLRT AGTBP",
+    "description": "Bombardier Innovia APM 100 C801 rubber-tyred driverless car, the first generation of Bukit Panjang LRT stock, running singly or in pairs. In service from 1999 until its retirement in 2025. Manufacturer: Adtranz / Bombardier.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 13.33,
+      "maxSpeedLocalStation": 13.33,
+      "capacityPerCar": 178,
+      "seatsPerCar": 22,
+      "doorsPerCarPerSide": 2,
+      "carLength": 12.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.8,
+      "minStationLength": 13,
+      "maxStationLength": 36,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Adtranz",
+      "Bombardier"
+    ],
+    "compatibleTrackTypes": [
+      "AGTBP-48"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "sg-c801a-bplrt",
+    "name": "SG C801A BPLRT AGTBP",
+    "description": "Bombardier Innovia APM 100 C801A rubber-tyred driverless car, the second generation of Bukit Panjang LRT stock, running singly or in pairs. In service since 2014. Manufacturer: Bombardier.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 13.33,
+      "maxSpeedLocalStation": 13.33,
+      "capacityPerCar": 178,
+      "seatsPerCar": 16,
+      "doorsPerCarPerSide": 2,
+      "carLength": 12.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.8,
+      "minStationLength": 13,
+      "maxStationLength": 36,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Bombardier"
+    ],
+    "compatibleTrackTypes": [
+      "AGTBP-48"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "sg-c801b-bplrt",
+    "name": "SG C801B BPLRT AGTBP",
+    "description": "Alstom Innovia APM 300R C801B rubber-tyred driverless car, the third generation of Bukit Panjang LRT stock, running singly or in pairs. In service since 2024. Manufacturer: Alstom / CRRC Nanjing Puzhen.",
+    "stats": {
+      "maxAcceleration": 0.75,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 13.33,
+      "maxSpeedLocalStation": 13.33,
+      "capacityPerCar": 178,
+      "seatsPerCar": 22,
+      "doorsPerCarPerSide": 2,
+      "carLength": 12.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.8,
+      "minStationLength": 13,
+      "maxStationLength": 36,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Alstom",
+      "CRRC Nanjing Puzhen"
+    ],
+    "compatibleTrackTypes": [
+      "AGTBP-48"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "AGTBP-48",
+    "name": "AGTBP-48",
+    "description": "Rubber-tyred 48kph guideway for Bukit Panjang LRT use.",
+    "stats": {
+      "maxAcceleration": 9,
+      "maxDeceleration": 9,
+      "maxSpeed": 13.4,
+      "maxSpeedLocalStation": 13.4,
+      "capacityPerCar": 0,
+      "seatsPerCar": 0,
+      "doorsPerCarPerSide": 999,
+      "carLength": 12.8,
+      "minCars": 2,
+      "maxCars": 20,
+      "carsPerCarSet": 1,
+      "carCost": 3200000,
+      "trainWidth": 2.8,
+      "minStationLength": 36,
+      "maxStationLength": 266,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 380,
+      "carOperationalCostPerHour": 26,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 90,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 60,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [],
+    "compatibleTrackTypes": [],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  }
+]

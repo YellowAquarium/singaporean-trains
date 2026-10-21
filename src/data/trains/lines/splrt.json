@@ -1,0 +1,270 @@
+[
+  {
+    "id": "sg-c810-splrt",
+    "name": "SG C810 SPLRT AGTSP",
+    "description": "Mitsubishi Crystal Mover C810 rubber-tyred driverless single car, the first generation of Sengkang and Punggol LRT stock. In service since 2003 and being retired by 2028. Manufacturer: Mitsubishi Heavy Industries.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.0,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 19.44,
+      "capacityPerCar": 158,
+      "seatsPerCar": 18,
+      "doorsPerCarPerSide": 2,
+      "carLength": 11.84,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.69,
+      "minStationLength": 12,
+      "maxStationLength": 22,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Mitsubishi Heavy Industries"
+    ],
+    "compatibleTrackTypes": [
+      "AGTSP-70"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "sg-c810a-splrt",
+    "name": "SG C810A SPLRT AGTSP",
+    "description": "Mitsubishi Crystal Mover C810A rubber-tyred driverless car, modified from the C810 to run as a single car or 2-car train on the Sengkang and Punggol LRT since 2016. Manufacturer: Mitsubishi Heavy Industries.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.0,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 19.44,
+      "capacityPerCar": 158,
+      "seatsPerCar": 14,
+      "doorsPerCarPerSide": 2,
+      "carLength": 11.84,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.69,
+      "minStationLength": 12,
+      "maxStationLength": 34,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Mitsubishi Heavy Industries"
+    ],
+    "compatibleTrackTypes": [
+      "AGTSP-70"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "sg-c810d-splrt",
+    "name": "SG C810D SPLRT AGTSP",
+    "description": "Mitsubishi Crystal Mover C810D rubber-tyred driverless 2-car train, the third generation of Sengkang and Punggol LRT stock. In service since 2025. Manufacturer: Mitsubishi Heavy Industries.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.0,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 19.44,
+      "capacityPerCar": 157,
+      "seatsPerCar": 14,
+      "doorsPerCarPerSide": 2,
+      "carLength": 11.75,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 1800000,
+      "trainWidth": 2.69,
+      "minStationLength": 24,
+      "maxStationLength": 34,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Mitsubishi Heavy Industries"
+    ],
+    "compatibleTrackTypes": [
+      "AGTSP-70"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "AGTSP-70",
+    "name": "AGTSP-70",
+    "description": "Rubber-tyred 70kph guideway for Sengkang and Punggol LRT use.",
+    "stats": {
+      "maxAcceleration": 9,
+      "maxDeceleration": 9,
+      "maxSpeed": 19.5,
+      "maxSpeedLocalStation": 19.5,
+      "capacityPerCar": 0,
+      "seatsPerCar": 0,
+      "doorsPerCarPerSide": 999,
+      "carLength": 11.84,
+      "minCars": 2,
+      "maxCars": 20,
+      "carsPerCarSet": 1,
+      "carCost": 3200000,
+      "trainWidth": 2.69,
+      "minStationLength": 34,
+      "maxStationLength": 247,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 380,
+      "carOperationalCostPerHour": 26,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 90,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 60,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#748477"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [],
+    "compatibleTrackTypes": [],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  }
+]

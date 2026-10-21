@@ -1,0 +1,203 @@
+[
+  {
+    "id": "sg-c100-skytrain",
+    "name": "SG C-100 Skytrain AGTCA",
+    "description": "Westinghouse C-100 rubber-tyred driverless people mover car, the original Changi Airport Skytrain stock. In service from 1990 until its replacement in 2006. Manufacturer: Westinghouse / Adtranz.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 13.33,
+      "maxSpeedLocalStation": 13.33,
+      "capacityPerCar": 166,
+      "seatsPerCar": 12,
+      "doorsPerCarPerSide": 2,
+      "carLength": 11.9,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.8,
+      "minStationLength": 12,
+      "maxStationLength": 34,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Westinghouse",
+      "Adtranz"
+    ],
+    "compatibleTrackTypes": [
+      "AGTCA-50"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "sg-crystal-mover-skytrain",
+    "name": "SG Crystal Mover Skytrain AGTCA",
+    "description": "Mitsubishi Crystal Mover rubber-tyred driverless people mover car for the Changi Airport Skytrain, running as 1 to 3 cars. In service since 2006. Manufacturer: Mitsubishi Heavy Industries.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.0,
+      "maxSpeed": 13.89,
+      "maxSpeedLocalStation": 13.89,
+      "capacityPerCar": 150,
+      "seatsPerCar": 8,
+      "doorsPerCarPerSide": 2,
+      "carLength": 11.2,
+      "minCars": 1,
+      "maxCars": 3,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.69,
+      "minStationLength": 12,
+      "maxStationLength": 44,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 130,
+      "carOperationalCostPerHour": 14,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 20,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 48,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [
+      "Mitsubishi Heavy Industries"
+    ],
+    "compatibleTrackTypes": [
+      "AGTCA-50"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  },
+  {
+    "id": "AGTCA-50",
+    "name": "AGTCA-50",
+    "description": "Rubber-tyred 50kph guideway for Changi Airport Skytrain use.",
+    "stats": {
+      "maxAcceleration": 9,
+      "maxDeceleration": 9,
+      "maxSpeed": 13.9,
+      "maxSpeedLocalStation": 13.9,
+      "capacityPerCar": 0,
+      "seatsPerCar": 0,
+      "doorsPerCarPerSide": 999,
+      "carLength": 11.9,
+      "minCars": 2,
+      "maxCars": 20,
+      "carsPerCarSet": 1,
+      "carCost": 3200000,
+      "trainWidth": 2.8,
+      "minStationLength": 34,
+      "maxStationLength": 248,
+      "baseTrackCost": 22000,
+      "baseStationCost": 30000000,
+      "trainOperationalCostPerHour": 380,
+      "carOperationalCostPerHour": 26,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.275,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 120,
+      "maxSlopePercentage": 6,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 20,
+      "turnaroundTimeSeconds": 90,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 60,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.6,
+      "STANDARD_TUNNEL": 1.8,
+      "CUT_AND_COVER": 0.9,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.7,
+      "TRENCHED": 0.5,
+      "RAMP": 0.47
+    },
+    "Manufacturer": [],
+    "compatibleTrackTypes": [],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 300000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 5000000,
+    "rampCost": 2500000
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "sg-rts-link",
+    "name": "SG RTS Link Train 1435RT",
+    "description": "CRRC Zhuzhou 4-car driverless light rail train for the Johor Bahru-Singapore RTS Link between Woodlands North and Bukit Chagar. Line opening planned for February 2027. Manufacturer: CRRC Zhuzhou.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 22.22,
+      "capacityPerCar": 254,
+      "seatsPerCar": 32,
+      "doorsPerCarPerSide": 3,
+      "carLength": 19.01,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 2400000,
+      "trainWidth": 2.7,
+      "minStationLength": 77,
+      "maxStationLength": 87,
+      "baseTrackCost": 28000,
+      "baseStationCost": 40000000,
+      "trainOperationalCostPerHour": 200,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 12000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.425,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 3.8,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 30,
+      "turnaroundTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 36,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8,
+      "TRENCHED": 0.54,
+      "RAMP": 0.53
+    },
+    "Manufacturer": [
+      "CRRC Zhuzhou"
+    ],
+    "compatibleTrackTypes": [
+      "1435RT-80"
+    ],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 9000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 8000000,
+    "rampCost": 4000000
+  },
+  {
+    "id": "1435RT-80",
+    "name": "1435RT-80",
+    "description": "1435mm 80kph track for Johor Bahru-Singapore RTS Link use.",
+    "stats": {
+      "maxAcceleration": 9,
+      "maxDeceleration": 9,
+      "maxSpeed": 22.3,
+      "maxSpeedLocalStation": 22.3,
+      "capacityPerCar": 0,
+      "seatsPerCar": 0,
+      "doorsPerCarPerSide": 999,
+      "carLength": 19.01,
+      "minCars": 2,
+      "maxCars": 20,
+      "carsPerCarSet": 1,
+      "carCost": 3200000,
+      "trainWidth": 2.7,
+      "minStationLength": 49,
+      "maxStationLength": 391,
+      "baseTrackCost": 28000,
+      "baseStationCost": 40000000,
+      "trainOperationalCostPerHour": 380,
+      "carOperationalCostPerHour": 26,
+      "scissorsCrossoverCost": 12000000,
+      "trackClearance": 1,
+      "maxLateralAcceleration": 1.425,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 3.8,
+      "parallelTrackSpacing": 1.965,
+      "stopTimeSeconds": 30,
+      "turnaroundTimeSeconds": 90,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 60,
+      "crossoverSpeed": 12.5
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8,
+      "TRENCHED": 0.54,
+      "RAMP": 0.53
+    },
+    "Manufacturer": [],
+    "compatibleTrackTypes": [],
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 9000,
+    "gradeCrossingTphLimit": {
+      "highway": 999,
+      "major": 999,
+      "medium": 999,
+      "minor": 999
+    },
+    "portalCost": 8000000,
+    "rampCost": 4000000
+  }
+]

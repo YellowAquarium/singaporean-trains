@@ -1,10 +1,10 @@
 # Subway Builder Singaporean Trains
 
-Subway Builder Singaporean Trains is a mod for Subway Builder that adds trains from Singapore's Mass Rapid Transit (MRT) network. This pack contains every MRT rolling stock generation, from the original 1987 C151 to the trains being delivered for the Jurong Region and Cross Island Lines.
+Subway Builder Singaporean Trains is a mod for Subway Builder that adds trains from Singapore's rail network. This pack contains every Mass Rapid Transit (MRT) rolling stock generation, from the original 1987 C151 to the trains being delivered for the Jurong Region and Cross Island Lines, along with every Light Rail Transit (LRT) generation, the Changi Airport Skytrain, the Sentosa Express monorail and the Johor Bahru-Singapore RTS Link.
 
 ## Track Types
 
-Each line has its own track type, named `{gauge}{line code}-{speed}`. Trains run only on their own line's track, as no Singapore MRT lines share tracks.
+Each line has its own track type, named `{gauge}{line code}-{speed}`. The rubber-tyred LRT and Skytrain lines have no rail gauge, so they use `AGT` in place of the gauge. The Sentosa Express runs on a monorail beam, so it uses `MON`. Trains run only on their own line's track, as no Singapore lines share tracks.
 
 |Track|Line|Top Speed (km/h)|
 |-|-|-|
@@ -15,8 +15,13 @@ Each line has its own track type, named `{gauge}{line code}-{speed}`. Trains run
 |1435TE-90|Thomson-East Coast Line|90|
 |1435JR-70|Jurong Region Line|70|
 |1435CR-90|Cross Island Line|90|
+|AGTBP-48|Bukit Panjang LRT|48|
+|AGTSP-70|Sengkang & Punggol LRT|70|
+|AGTCA-50|Changi Airport Skytrain|50|
+|MONSE-50|Sentosa Express|50|
+|1435RT-80|RTS Link|80|
 
-## Currently Available Trains (18)
+## Currently Available Trains (28)
 
 #### North-South & East-West Lines (7)
 
@@ -70,3 +75,38 @@ Each line has its own track type, named `{gauge}{line code}-{speed}`. Trains run
 |Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
 |-|-|-|-|-|
 |SG CR151 CRL 1435CR|CRRC Sifang CR151 driverless train for the Cross Island Line, running as 6 cars and extendable to 8. Line opening planned for 2030. Manufacturer: CRRC Qingdao Sifang.|CRRC Qingdao Sifang|90|2928|
+
+#### Bukit Panjang LRT (3)
+
+|Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
+|-|-|-|-|-|
+|SG C801 BPLRT AGTBP|Bombardier Innovia APM 100 C801 rubber-tyred driverless car, the first generation of Bukit Panjang LRT stock, running singly or in pairs. In service from 1999 until its retirement in 2025. Manufacturer: Adtranz / Bombardier.|Adtranz / Bombardier|48|356|
+|SG C801A BPLRT AGTBP|Bombardier Innovia APM 100 C801A rubber-tyred driverless car, the second generation of Bukit Panjang LRT stock, running singly or in pairs. In service since 2014. Manufacturer: Bombardier.|Bombardier|48|356|
+|SG C801B BPLRT AGTBP|Alstom Innovia APM 300R C801B rubber-tyred driverless car, the third generation of Bukit Panjang LRT stock, running singly or in pairs. In service since 2024. Manufacturer: Alstom / CRRC Nanjing Puzhen.|Alstom / CRRC Nanjing Puzhen|48|356|
+
+#### Sengkang & Punggol LRT (3)
+
+|Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
+|-|-|-|-|-|
+|SG C810 SPLRT AGTSP|Mitsubishi Crystal Mover C810 rubber-tyred driverless single car, the first generation of Sengkang and Punggol LRT stock. In service since 2003 and being retired by 2028. Manufacturer: Mitsubishi Heavy Industries.|Mitsubishi Heavy Industries|70|158|
+|SG C810A SPLRT AGTSP|Mitsubishi Crystal Mover C810A rubber-tyred driverless car, modified from the C810 to run as a single car or 2-car train on the Sengkang and Punggol LRT since 2016. Manufacturer: Mitsubishi Heavy Industries.|Mitsubishi Heavy Industries|70|316|
+|SG C810D SPLRT AGTSP|Mitsubishi Crystal Mover C810D rubber-tyred driverless 2-car train, the third generation of Sengkang and Punggol LRT stock. In service since 2025. Manufacturer: Mitsubishi Heavy Industries.|Mitsubishi Heavy Industries|70|314|
+
+#### Changi Airport Skytrain (2)
+
+|Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
+|-|-|-|-|-|
+|SG C-100 Skytrain AGTCA|Westinghouse C-100 rubber-tyred driverless people mover car, the original Changi Airport Skytrain stock. In service from 1990 until its replacement in 2006. Manufacturer: Westinghouse / Adtranz.|Westinghouse / Adtranz|48|332|
+|SG Crystal Mover Skytrain AGTCA|Mitsubishi Crystal Mover rubber-tyred driverless people mover car for the Changi Airport Skytrain, running as 1 to 3 cars. In service since 2006. Manufacturer: Mitsubishi Heavy Industries.|Mitsubishi Heavy Industries|50|450|
+
+#### Sentosa Express (1)
+
+|Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
+|-|-|-|-|-|
+|SG Hitachi Monorail Sentosa MONSE|Hitachi small-type straddle-beam monorail 2-car train for the Sentosa Express between VivoCity and Sentosa Island. In service since 2007. Manufacturer: Hitachi Rail.|Hitachi Rail|50|336|
+
+#### RTS Link (1)
+
+|Name|Description|Manufacturer|Top Speed (km/h)|Maximum Capacity|
+|-|-|-|-|-|
+|SG RTS Link Train 1435RT|CRRC Zhuzhou 4-car driverless light rail train for the Johor Bahru-Singapore RTS Link between Woodlands North and Bukit Chagar. Line opening planned for February 2027. Manufacturer: CRRC Zhuzhou.|CRRC Zhuzhou|80|1016|
