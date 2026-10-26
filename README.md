@@ -5,6 +5,8 @@ Subway Builder Singaporean Trains is a mod for Subway Builder that adds trains f
 ## Track Types
 
 Each line has its own track type, named `{gauge}{line code}-{speed}`. The rubber-tyred LRT and Skytrain lines have no rail gauge, so they use `AGT` in place of the gauge. The Sentosa Express runs on a monorail beam, so it uses `MON`. Trains run only on their own line's track, as no Singapore lines share tracks.
+Initial builds should be done with a track option where applicable, compatible tracks are listed at the end of the train name; e.g. SG C151 NSEWL 1435NS and SG C151C NSEWL 1435NS can both run on 1435NS-80 tracks.
+Specific trains can be chosen afterwards in the route menu.
 
 |Track|Line|Top Speed (km/h)|
 |-|-|-|
