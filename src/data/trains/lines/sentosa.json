@@ -4,8 +4,15 @@
     "name": "SG Hitachi Monorail Sentosa MONSE",
     "description": "Hitachi small-type straddle-beam monorail 2-car train for the Sentosa Express between VivoCity and Sentosa Island. In service since 2007. Manufacturer: Hitachi Rail.",
     "stats": {
-      "maxAcceleration": 1.1,
+      "maxAcceleration": 0.972,
       "maxDeceleration": 1.2,
+      "accelerationCurve": {
+        "a0": 0.972,
+        "a1": 0.972,
+        "v1": 8.33,
+        "v2": 15.28,
+        "exponent": 2
+      },
       "maxSpeed": 13.89,
       "maxSpeedLocalStation": 13.89,
       "capacityPerCar": 168,

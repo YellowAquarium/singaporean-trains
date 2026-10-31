@@ -4,8 +4,15 @@
     "name": "SG T251 TEL 1435TE",
     "description": "Kawasaki-Sifang T251 4-car driverless train with 5 doors per side, the first generation of Thomson-East Coast Line stock, in service since 2020. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.",
     "stats": {
-      "maxAcceleration": 0.95,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 25.0,
       "maxSpeedLocalStation": 25.0,
       "capacityPerCar": 369,

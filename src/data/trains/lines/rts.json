@@ -4,8 +4,15 @@
     "name": "SG RTS Link Train 1435RT",
     "description": "CRRC Zhuzhou 4-car driverless light rail train for the Johor Bahru-Singapore RTS Link between Woodlands North and Bukit Chagar. Line opening planned for February 2027. Manufacturer: CRRC Zhuzhou.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.2,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 22.22,
       "maxSpeedLocalStation": 22.22,
       "capacityPerCar": 254,

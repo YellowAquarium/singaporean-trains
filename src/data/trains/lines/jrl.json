@@ -4,8 +4,15 @@
     "name": "SG J151 JRL 1435JR",
     "description": "Hyundai Rotem J151 driverless medium-capacity train for the Jurong Region Line, running as 3 cars and extendable to 4. Line opening planned for 2028. Manufacturer: Hyundai Rotem.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 19.44,
       "capacityPerCar": 254,

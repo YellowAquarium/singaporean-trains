@@ -4,8 +4,15 @@
     "name": "SG C751A NEL 1435NE",
     "description": "Alstom Metropolis C751A 6-car driverless train, the first generation of North East Line stock, in service since the line opened in 2003. Manufacturer: Alstom.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 25.0,
       "maxSpeedLocalStation": 25.0,
       "capacityPerCar": 366,
@@ -72,8 +79,15 @@
     "name": "SG C751C NEL 1435NE",
     "description": "Alstom Metropolis C751C 6-car driverless train, the second generation of North East Line stock, in service since 2015. Manufacturer: Alstom / Shanghai Electric.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 25.0,
       "maxSpeedLocalStation": 25.0,
       "capacityPerCar": 366,
@@ -141,8 +155,15 @@
     "name": "SG C851E NEL 1435NE",
     "description": "Alstom Metropolis C851E 6-car driverless train, the third generation of North East Line stock, in service since 2023. Manufacturer: Alstom.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 25.0,
       "maxSpeedLocalStation": 25.0,
       "capacityPerCar": 366,

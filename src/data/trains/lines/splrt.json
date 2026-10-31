@@ -6,6 +6,13 @@
     "stats": {
       "maxAcceleration": 1.0,
       "maxDeceleration": 1.0,
+      "accelerationCurve": {
+        "a0": 1.0,
+        "a1": 1.0,
+        "v1": 8.33,
+        "v2": 15.28,
+        "exponent": 2
+      },
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 19.44,
       "capacityPerCar": 158,
@@ -74,6 +81,13 @@
     "stats": {
       "maxAcceleration": 1.0,
       "maxDeceleration": 1.0,
+      "accelerationCurve": {
+        "a0": 1.0,
+        "a1": 1.0,
+        "v1": 8.33,
+        "v2": 15.28,
+        "exponent": 2
+      },
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 19.44,
       "capacityPerCar": 158,
@@ -142,6 +156,13 @@
     "stats": {
       "maxAcceleration": 1.0,
       "maxDeceleration": 1.0,
+      "accelerationCurve": {
+        "a0": 1.0,
+        "a1": 1.0,
+        "v1": 8.33,
+        "v2": 15.28,
+        "exponent": 2
+      },
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 19.44,
       "capacityPerCar": 157,

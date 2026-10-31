@@ -7,6 +7,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1.2,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 13.33,
 				"maxSpeedLocalStation": 13.33,
 				"capacityPerCar": 178,
@@ -69,6 +76,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1.2,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 13.33,
 				"maxSpeedLocalStation": 13.33,
 				"capacityPerCar": 178,
@@ -131,6 +145,13 @@
 			"stats": {
 				"maxAcceleration": .75,
 				"maxDeceleration": 1.2,
+				"accelerationCurve": {
+					"a0": .75,
+					"a1": .75,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 13.33,
 				"maxSpeedLocalStation": 13.33,
 				"capacityPerCar": 178,
@@ -255,8 +276,15 @@
 			"name": "SG C830 CCL 1435CC",
 			"description": "Alstom Metropolis C830 3-car driverless train, the first generation of Circle Line stock, in service since 2009. Manufacturer: Alstom.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 22.22,
 				"maxSpeedLocalStation": 22.22,
 				"capacityPerCar": 370,
@@ -317,8 +345,15 @@
 			"name": "SG C830C CCL 1435CC",
 			"description": "Alstom Metropolis C830C 3-car driverless train, the second generation of Circle Line stock, in service since 2015. Manufacturer: Alstom / Shanghai Electric.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 21.67,
 				"maxSpeedLocalStation": 21.67,
 				"capacityPerCar": 370,
@@ -379,8 +414,15 @@
 			"name": "SG C851E CCL 1435CC",
 			"description": "Alstom Metropolis C851E 3-car driverless train, the third generation of Circle Line stock, in service since 2026. Manufacturer: Alstom.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 21.67,
 				"maxSpeedLocalStation": 21.67,
 				"capacityPerCar": 370,
@@ -504,8 +546,15 @@
 		"name": "SG CR151 CRL 1435CR",
 		"description": "CRRC Sifang CR151 driverless train for the Cross Island Line, running as 6 cars and extendable to 8. Line opening planned for 2030. Manufacturer: CRRC Qingdao Sifang.",
 		"stats": {
-			"maxAcceleration": 1,
+			"maxAcceleration": .917,
 			"maxDeceleration": 1.15,
+			"accelerationCurve": {
+				"a0": .917,
+				"a1": .917,
+				"v1": 10.56,
+				"v2": 21.67,
+				"exponent": 2
+			},
 			"maxSpeed": 25,
 			"maxSpeedLocalStation": 25,
 			"capacityPerCar": 366,
@@ -628,8 +677,15 @@
 			"name": "SG C951 DTL 1435DT",
 			"description": "Bombardier Movia C951 3-car driverless train, the first batch of Downtown Line stock, in service since 2013. Manufacturer: Bombardier / CRRC Changchun.",
 			"stats": {
-				"maxAcceleration": 1.1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 22.22,
 				"maxSpeedLocalStation": 22.22,
 				"capacityPerCar": 370,
@@ -690,8 +746,15 @@
 			"name": "SG C951A DTL 1435DT",
 			"description": "Bombardier Movia C951A 3-car driverless train, the follow-on batch of Downtown Line stock for later line extensions. Manufacturer: Bombardier / CRRC Changchun.",
 			"stats": {
-				"maxAcceleration": 1.1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 22.22,
 				"maxSpeedLocalStation": 22.22,
 				"capacityPerCar": 370,
@@ -815,8 +878,15 @@
 		"name": "SG J151 JRL 1435JR",
 		"description": "Hyundai Rotem J151 driverless medium-capacity train for the Jurong Region Line, running as 3 cars and extendable to 4. Line opening planned for 2028. Manufacturer: Hyundai Rotem.",
 		"stats": {
-			"maxAcceleration": 1,
+			"maxAcceleration": .917,
 			"maxDeceleration": 1.15,
+			"accelerationCurve": {
+				"a0": .917,
+				"a1": .917,
+				"v1": 10.56,
+				"v2": 21.67,
+				"exponent": 2
+			},
 			"maxSpeed": 19.44,
 			"maxSpeedLocalStation": 19.44,
 			"capacityPerCar": 254,
@@ -939,8 +1009,15 @@
 			"name": "SG C751A NEL 1435NE",
 			"description": "Alstom Metropolis C751A 6-car driverless train, the first generation of North East Line stock, in service since the line opened in 2003. Manufacturer: Alstom.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 25,
 				"maxSpeedLocalStation": 25,
 				"capacityPerCar": 366,
@@ -1001,8 +1078,15 @@
 			"name": "SG C751C NEL 1435NE",
 			"description": "Alstom Metropolis C751C 6-car driverless train, the second generation of North East Line stock, in service since 2015. Manufacturer: Alstom / Shanghai Electric.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 25,
 				"maxSpeedLocalStation": 25,
 				"capacityPerCar": 366,
@@ -1063,8 +1147,15 @@
 			"name": "SG C851E NEL 1435NE",
 			"description": "Alstom Metropolis C851E 6-car driverless train, the third generation of North East Line stock, in service since 2023. Manufacturer: Alstom.",
 			"stats": {
-				"maxAcceleration": 1,
+				"maxAcceleration": .917,
 				"maxDeceleration": 1.15,
+				"accelerationCurve": {
+					"a0": .917,
+					"a1": .917,
+					"v1": 10.56,
+					"v2": 21.67,
+					"exponent": 2
+				},
 				"maxSpeed": 25,
 				"maxSpeedLocalStation": 25,
 				"capacityPerCar": 366,
@@ -1183,14 +1274,21 @@
 			"rampCost": 4e6
 		}
 	];
-	var nsewl_default = /* @__PURE__ */ JSON.parse("[{\"id\":\"sg-c151-nsewl\",\"name\":\"SG C151 NSEWL 1435NS\",\"description\":\"Kawasaki C151 6-car train, the first generation of Singapore MRT rolling stock. Used on the North-South and East-West Lines from 1987 until its retirement in 2025. Manufacturer: Kawasaki Heavy Industries / Kinki Sharyo / Nippon Sharyo / Tokyu Car.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.0,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.08,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"Kinki Sharyo\",\"Nippon Sharyo\",\"Tokyu Car\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c651-nsewl\",\"name\":\"SG C651 NSEWL 1435NS\",\"description\":\"Siemens C651 6-car train, the second generation of North-South and East-West Line stock. In service from 1995 until its retirement in 2024. Manufacturer: Siemens / SGP Verkehrstechnik.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.15,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.08,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Siemens\",\"SGP Verkehrstechnik\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c751b-nsewl\",\"name\":\"SG C751B NSEWL 1435NS\",\"description\":\"Kawasaki-Nippon Sharyo C751B 6-car train, the third generation of North-South and East-West Line stock. In service from 2000 until its retirement in 2024. Manufacturer: Kawasaki Heavy Industries / Nippon Sharyo.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.3,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"Nippon Sharyo\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151a-nsewl\",\"name\":\"SG C151A NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151A 6-car train, the fourth generation of North-South and East-West Line stock, in service since 2011. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.2,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151b-nsewl\",\"name\":\"SG C151B NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151B 6-car train, the fifth generation of North-South and East-West Line stock, in service since 2017. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.2,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151c-nsewl\",\"name\":\"SG C151C NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151C 6-car train, the sixth generation of North-South and East-West Line stock, in service since 2018. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.2,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-r151-nsewl\",\"name\":\"SG R151 NSEWL 1435NS\",\"description\":\"Alstom Movia R151 6-car train, the seventh generation of North-South and East-West Line stock, in service since 2023 and replacing the first three generations. Manufacturer: Alstom / CRRC Changchun.\",\"stats\":{\"maxAcceleration\":1.0,\"maxDeceleration\":1.2,\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Alstom\",\"CRRC Changchun\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"1435NS-80\",\"name\":\"1435NS-80\",\"description\":\"1435mm 80kph track for North-South and East-West Lines use.\",\"stats\":{\"maxAcceleration\":9,\"maxDeceleration\":9,\"maxSpeed\":22.3,\"maxSpeedLocalStation\":22.3,\"capacityPerCar\":0,\"seatsPerCar\":0,\"doorsPerCarPerSide\":999,\"carLength\":23.14,\"minCars\":2,\"maxCars\":20,\"carsPerCarSet\":1,\"carCost\":3200000,\"trainWidth\":3.2,\"minStationLength\":57,\"maxStationLength\":473,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":380,\"carOperationalCostPerHour\":26,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":90,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":60,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[],\"compatibleTrackTypes\":[],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000}]");
+	var nsewl_default = /* @__PURE__ */ JSON.parse("[{\"id\":\"sg-c151-nsewl\",\"name\":\"SG C151 NSEWL 1435NS\",\"description\":\"Kawasaki C151 6-car train, the first generation of Singapore MRT rolling stock. Used on the North-South and East-West Lines from 1987 until its retirement in 2025. Manufacturer: Kawasaki Heavy Industries / Kinki Sharyo / Nippon Sharyo / Tokyu Car.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.0,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.08,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"Kinki Sharyo\",\"Nippon Sharyo\",\"Tokyu Car\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c651-nsewl\",\"name\":\"SG C651 NSEWL 1435NS\",\"description\":\"Siemens C651 6-car train, the second generation of North-South and East-West Line stock. In service from 1995 until its retirement in 2024. Manufacturer: Siemens / SGP Verkehrstechnik.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.15,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.08,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Siemens\",\"SGP Verkehrstechnik\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c751b-nsewl\",\"name\":\"SG C751B NSEWL 1435NS\",\"description\":\"Kawasaki-Nippon Sharyo C751B 6-car train, the third generation of North-South and East-West Line stock. In service from 2000 until its retirement in 2024. Manufacturer: Kawasaki Heavy Industries / Nippon Sharyo.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.3,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"Nippon Sharyo\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151a-nsewl\",\"name\":\"SG C151A NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151A 6-car train, the fourth generation of North-South and East-West Line stock, in service since 2011. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.2,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151b-nsewl\",\"name\":\"SG C151B NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151B 6-car train, the fifth generation of North-South and East-West Line stock, in service since 2017. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.2,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-c151c-nsewl\",\"name\":\"SG C151C NSEWL 1435NS\",\"description\":\"Kawasaki-Sifang C151C 6-car train, the sixth generation of North-South and East-West Line stock, in service since 2018. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.2,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Kawasaki Heavy Industries\",\"CRRC Qingdao Sifang\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"sg-r151-nsewl\",\"name\":\"SG R151 NSEWL 1435NS\",\"description\":\"Alstom Movia R151 6-car train, the seventh generation of North-South and East-West Line stock, in service since 2023 and replacing the first three generations. Manufacturer: Alstom / CRRC Changchun.\",\"stats\":{\"maxAcceleration\":0.917,\"maxDeceleration\":1.2,\"accelerationCurve\":{\"a0\":0.917,\"a1\":0.917,\"v1\":10.56,\"v2\":21.67,\"exponent\":2},\"maxSpeed\":22.22,\"maxSpeedLocalStation\":22.22,\"capacityPerCar\":366,\"seatsPerCar\":50,\"doorsPerCarPerSide\":4,\"carLength\":23.14,\"minCars\":6,\"maxCars\":6,\"carsPerCarSet\":6,\"carCost\":3000000,\"trainWidth\":3.2,\"minStationLength\":139,\"maxStationLength\":149,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":250,\"carOperationalCostPerHour\":25,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":30,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":36,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[\"Alstom\",\"CRRC Changchun\"],\"compatibleTrackTypes\":[\"1435NS-80\"],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000},{\"id\":\"1435NS-80\",\"name\":\"1435NS-80\",\"description\":\"1435mm 80kph track for North-South and East-West Lines use.\",\"stats\":{\"maxAcceleration\":9,\"maxDeceleration\":9,\"maxSpeed\":22.3,\"maxSpeedLocalStation\":22.3,\"capacityPerCar\":0,\"seatsPerCar\":0,\"doorsPerCarPerSide\":999,\"carLength\":23.14,\"minCars\":2,\"maxCars\":20,\"carsPerCarSet\":1,\"carCost\":3200000,\"trainWidth\":3.2,\"minStationLength\":57,\"maxStationLength\":473,\"baseTrackCost\":32000,\"baseStationCost\":56000000,\"trainOperationalCostPerHour\":380,\"carOperationalCostPerHour\":26,\"scissorsCrossoverCost\":15000000,\"trackClearance\":1,\"maxLateralAcceleration\":1.425,\"minTurnRadius\":35,\"minStationTurnRadius\":420,\"maxSlopePercentage\":3.8,\"parallelTrackSpacing\":3.5,\"stopTimeSeconds\":30,\"turnaroundTimeSeconds\":90,\"trackMaintenanceCostPerMeter\":0,\"stationMaintenanceCostPerYear\":0,\"tphLimit\":60,\"crossoverSpeed\":12.5},\"appearance\":{\"color\":\"#D42E12\"},\"elevationMultipliers\":{\"DEEP_BORE\":4,\"STANDARD_TUNNEL\":2,\"CUT_AND_COVER\":1,\"AT_GRADE\":0.3,\"ELEVATED\":0.8,\"TRENCHED\":0.54,\"RAMP\":0.53},\"Manufacturer\":[],\"compatibleTrackTypes\":[],\"allowGradeCrossing\":true,\"gradeCrossingBaseCost\":350000,\"gradeCrossingMaintenancePerYear\":9000,\"gradeCrossingTphLimit\":{\"highway\":999,\"major\":999,\"medium\":999,\"minor\":999},\"portalCost\":8000000,\"rampCost\":4000000}]");
 	var rts_default = [{
 		"id": "sg-rts-link",
 		"name": "SG RTS Link Train 1435RT",
 		"description": "CRRC Zhuzhou 4-car driverless light rail train for the Johor Bahru-Singapore RTS Link between Woodlands North and Bukit Chagar. Line opening planned for February 2027. Manufacturer: CRRC Zhuzhou.",
 		"stats": {
-			"maxAcceleration": 1,
+			"maxAcceleration": .917,
 			"maxDeceleration": 1.2,
+			"accelerationCurve": {
+				"a0": .917,
+				"a1": .917,
+				"v1": 10.56,
+				"v2": 21.67,
+				"exponent": 2
+			},
 			"maxSpeed": 22.22,
 			"maxSpeedLocalStation": 22.22,
 			"capacityPerCar": 254,
@@ -1312,8 +1410,15 @@
 		"name": "SG Hitachi Monorail Sentosa MONSE",
 		"description": "Hitachi small-type straddle-beam monorail 2-car train for the Sentosa Express between VivoCity and Sentosa Island. In service since 2007. Manufacturer: Hitachi Rail.",
 		"stats": {
-			"maxAcceleration": 1.1,
+			"maxAcceleration": .972,
 			"maxDeceleration": 1.2,
+			"accelerationCurve": {
+				"a0": .972,
+				"a1": .972,
+				"v1": 8.33,
+				"v2": 15.28,
+				"exponent": 2
+			},
 			"maxSpeed": 13.89,
 			"maxSpeedLocalStation": 13.89,
 			"capacityPerCar": 168,
@@ -1438,6 +1543,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1.2,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 13.33,
 				"maxSpeedLocalStation": 13.33,
 				"capacityPerCar": 166,
@@ -1500,6 +1612,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 13.89,
 				"maxSpeedLocalStation": 13.89,
 				"capacityPerCar": 150,
@@ -1626,6 +1745,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 19.44,
 				"maxSpeedLocalStation": 19.44,
 				"capacityPerCar": 158,
@@ -1688,6 +1814,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 19.44,
 				"maxSpeedLocalStation": 19.44,
 				"capacityPerCar": 158,
@@ -1750,6 +1883,13 @@
 			"stats": {
 				"maxAcceleration": 1,
 				"maxDeceleration": 1,
+				"accelerationCurve": {
+					"a0": 1,
+					"a1": 1,
+					"v1": 8.33,
+					"v2": 15.28,
+					"exponent": 2
+				},
 				"maxSpeed": 19.44,
 				"maxSpeedLocalStation": 19.44,
 				"capacityPerCar": 157,
@@ -1873,8 +2013,15 @@
 		"name": "SG T251 TEL 1435TE",
 		"description": "Kawasaki-Sifang T251 4-car driverless train with 5 doors per side, the first generation of Thomson-East Coast Line stock, in service since 2020. Manufacturer: Kawasaki Heavy Industries / CRRC Qingdao Sifang.",
 		"stats": {
-			"maxAcceleration": .95,
+			"maxAcceleration": .917,
 			"maxDeceleration": 1.15,
+			"accelerationCurve": {
+				"a0": .917,
+				"a1": .917,
+				"v1": 10.56,
+				"v2": 21.67,
+				"exponent": 2
+			},
 			"maxSpeed": 25,
 			"maxSpeedLocalStation": 25,
 			"capacityPerCar": 369,
@@ -2007,7 +2154,7 @@
 	};
 	const trains = Object.values(cityTrainModules).flat();
 	var MOD_ID = "singaporean-trains";
-	var MOD_VERSION = "v1.1.0";
+	var MOD_VERSION = "v1.2.0";
 	var TAG = "[Singaporean Trains]";
 	var api = window.SubwayBuilderAPI;
 	if (!api) console.error(`${TAG} SubwayBuilderAPI not found.`);

@@ -4,8 +4,15 @@
     "name": "SG C830 CCL 1435CC",
     "description": "Alstom Metropolis C830 3-car driverless train, the first generation of Circle Line stock, in service since 2009. Manufacturer: Alstom.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 22.22,
       "maxSpeedLocalStation": 22.22,
       "capacityPerCar": 370,
@@ -72,8 +79,15 @@
     "name": "SG C830C CCL 1435CC",
     "description": "Alstom Metropolis C830C 3-car driverless train, the second generation of Circle Line stock, in service since 2015. Manufacturer: Alstom / Shanghai Electric.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 21.67,
       "maxSpeedLocalStation": 21.67,
       "capacityPerCar": 370,
@@ -141,8 +155,15 @@
     "name": "SG C851E CCL 1435CC",
     "description": "Alstom Metropolis C851E 3-car driverless train, the third generation of Circle Line stock, in service since 2026. Manufacturer: Alstom.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 21.67,
       "maxSpeedLocalStation": 21.67,
       "capacityPerCar": 370,

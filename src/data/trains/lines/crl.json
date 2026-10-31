@@ -4,8 +4,15 @@
     "name": "SG CR151 CRL 1435CR",
     "description": "CRRC Sifang CR151 driverless train for the Cross Island Line, running as 6 cars and extendable to 8. Line opening planned for 2030. Manufacturer: CRRC Qingdao Sifang.",
     "stats": {
-      "maxAcceleration": 1.0,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 25.0,
       "maxSpeedLocalStation": 25.0,
       "capacityPerCar": 366,

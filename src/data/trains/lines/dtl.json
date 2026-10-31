@@ -4,8 +4,15 @@
     "name": "SG C951 DTL 1435DT",
     "description": "Bombardier Movia C951 3-car driverless train, the first batch of Downtown Line stock, in service since 2013. Manufacturer: Bombardier / CRRC Changchun.",
     "stats": {
-      "maxAcceleration": 1.1,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 22.22,
       "maxSpeedLocalStation": 22.22,
       "capacityPerCar": 370,
@@ -73,8 +80,15 @@
     "name": "SG C951A DTL 1435DT",
     "description": "Bombardier Movia C951A 3-car driverless train, the follow-on batch of Downtown Line stock for later line extensions. Manufacturer: Bombardier / CRRC Changchun.",
     "stats": {
-      "maxAcceleration": 1.1,
+      "maxAcceleration": 0.917,
       "maxDeceleration": 1.15,
+      "accelerationCurve": {
+        "a0": 0.917,
+        "a1": 0.917,
+        "v1": 10.56,
+        "v2": 21.67,
+        "exponent": 2
+      },
       "maxSpeed": 22.22,
       "maxSpeedLocalStation": 22.22,
       "capacityPerCar": 370,
